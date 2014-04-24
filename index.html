@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+		<meta charset="utf-8"/>
+		<title></title>
+		<link rel="shortcut icon" href="favicon.ico"/>
+		<style>
+			body,div,ul,li, img, a {margin:0; padding:0; outline: 0; text-decoration: none;}
+			a{color: cornflowerblue;}
+			a:hover{color: cadetblue;}
+			a.download{text-decoration:underline;}
+			html,body{height: 100%;}
+			body{font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; margin: 0 auto; padding: 2%;}
+			.description{font-size: 1.4em; display: block; text-align: center;}
+			.tc{text-align: center}
+			.texto{padding: 10px;margin-bottom: 5px;}
+			.gray{color: #666;font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;}
+			.btn{width: 30%; margin: 0 0 0 20px; padding: 0.5em 2.5em; display: inline-block; background: #ccc; cursor:pointer;}
+			.btn:hover{background: green; color: #fff}
+			.code{background: #0A0704; color: #ccc; padding: 1em; margin: 1em 2em;font-family: Monaco, Consolas, "Lucida Console", monospace;}
+			img{width: 100%; height: auto;}
+			.button{margin: 0.5em; padding: 0.5em 1.5em; background: #ccc; color: #000; float: left; cursor: pointer;}
+			.button:hover{background: #000; color: #ccc}
+			.active{background: green; color: #fff}
+			.reset:hover{background: red; color: #fff;}
+			.github{position: absolute; top:0; right: 0; display:block;}
+			.legal{position: fixed; bottom:0; right: 0; background: #fff; padding: 0.2em 1.5em; box-shadow: 0 0 0.3em; text-align: right;}
+			
+			.simpleTab{background: #eee; text-align: center;}
+			.simpleTab:hover, .simpleTabActive{background: #000; color: #eee}
+			.simpleTabContainer, .simpleTab{box-shadow: 0 0 0.3em #aaa}
+		 </style>
+		<script type="text/javascript" src="jquery-1.9.1.min.js"></script>
+		<script type="text/javascript" src="simpleTabs.min.js"></script>
+		<script type="text/javascript">
+			$(function(){
+				$('.tabs').simpleTabs();
+			});
+		</script>
+	</head>
+<body>
+				<a href="http://github.com/Masquerade-Circus/simpleTabs.js" title="Fork me on Github" class="github" target="_blank"><img src="github.png" alt="Github" width="149" height="149"></a>
+				<h1 class="tc"><b>simpleTabs</b></h1>
+				<b class="description">
+					Less than 1kb jQuery plugin for transform content into tabs.
+					<br><br><a href="https://github.com/Masquerade-Circus/simpleTabs.js/archive/master.zip" title="Download" class="download" target="_blank">Download</a>
+				</b>
+				
+				<br><br><h2>How to use: </h2>
+				Call the plugin on the parent of the elements to make them act like tabs. 
+				<br>Each pair of children elements will act as tab and content.
+				
+				<br><br><h2>Options: </h2>
+				<div class="code">
+					$(selector).simpleTabs(function);
+				</div>
+				The function will be called each time the user hits a tab.
+				
+				
+				<br /><br /><h2>Example: </h2>
+				<div class="tabs">
+					<div>City</div>
+					<div><img src="http://lorempixel.com/640/360/city" alt="#"></div>
+					<div>Fashion</div>
+					<div><img src="http://lorempixel.com/640/360/fashion" alt="#"></div>
+					<div>People</div>
+					<div><img src="http://lorempixel.com/640/360/people" alt="#"></div>
+					<div>Cats</div>
+					<div><img src="http://lorempixel.com/640/360/cats" alt="#"></div>
+				</div>
+				
+				<br><br><h2>Legal: </h2>
+				Author & copyright (c) 2013: <a href="http://masquerade-circus.creaken.com" title="Masquerade Circus" target="_blank">Masquerade Circus</a>
+				<br>Dual <a href="http://opensource.org/licenses/MIT" title="MIT" target="_blank">MIT</a> & <a href="http://opensource.org/licenses/GPL-2.0" title="GPLv2" target="_blank">GPLv2</a> license
+				<br><br><br><br>
+</body>
+</html>
