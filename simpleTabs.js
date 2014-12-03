@@ -18,9 +18,9 @@
 					/^f/.test(typeof fn) ? fn.call($(this)) : n;
 				}).addClass('simpleTab').eq(0).trigger('click');
 				
-				a.css({'padding-top': t.eq(0).outerHeight() + 1 + 'px'});
-				
+				setInterval(function(){
+					a.css({'padding-top': t.eq(0).outerHeight() + 1 + 'px'});
+				},100);
 			});
 	};
-	
 })(jQuery);

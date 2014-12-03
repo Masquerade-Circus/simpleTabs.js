@@ -1,4 +1,4 @@
-simpleAccordion.js
+simpleTabs.js
 =================
 
 Less than 1kb jQuery plugin for transform content into tabs.
