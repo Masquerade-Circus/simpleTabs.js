@@ -4,7 +4,7 @@ simpleTabs.js
 Less than 1kb jQuery plugin for transform content into tabs.
 
 ## Demo
-http://masquerade-circus.creaken.com/Plugins/simpleTabs/
+http://masquerade-circus.net/myPlugins/simpleTabs/
 
 ##How to use:
 Call the plugin on the parent of the elements to make them act like tabs. 
@@ -18,5 +18,5 @@ The function will be called each time the user hits a tab.
 
 
 # Legal
-Author & copyright (c) 2013: [Masquerade Circus](http://masquerade-circus.creaken.com)
+Author & copyright (c) 2013: [Masquerade Circus](http://masquerade-circus.net)
 Dual [MIT](http://opensource.org/licenses/MIT) & [GPLv2](http://opensource.org/licenses/GPL-2.0) license
